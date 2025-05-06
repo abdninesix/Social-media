@@ -32,7 +32,7 @@ const Share = () => {
     >
       {/* AVATAR */}
       <div className="relative w-10 h-10 rounded-full overflow-hidden">
-        <Image path="general/avatar.png" alt="" w={100} h={100} tr={true} />
+        <Image path="sm/general/avatar.png" alt="" w={100} h={100} tr={true} />
       </div>
       {/* OTHERS */}
       <div className="flex-1 flex flex-col gap-4">
@@ -103,7 +103,7 @@ const Share = () => {
             />
             <label htmlFor="file">
               <Image
-                path="icons/image.svg"
+                path="sm/icons/image.svg"
                 alt=""
                 w={20}
                 h={20}
@@ -111,35 +111,35 @@ const Share = () => {
               />
             </label>
             <Image
-              path="icons/gif.svg"
+              path="sm/icons/gif.svg"
               alt=""
               w={20}
               h={20}
               className="cursor-pointer"
             />
             <Image
-              path="icons/poll.svg"
+              path="sm/icons/poll.svg"
               alt=""
               w={20}
               h={20}
               className="cursor-pointer"
             />
             <Image
-              path="icons/emoji.svg"
+              path="sm/icons/emoji.svg"
               alt=""
               w={20}
               h={20}
               className="cursor-pointer"
             />
             <Image
-              path="icons/schedule.svg"
+              path="sm/icons/schedule.svg"
               alt=""
               w={20}
               h={20}
               className="cursor-pointer"
             />
             <Image
-              path="icons/location.svg"
+              path="sm/icons/location.svg"
               alt=""
               w={20}
               h={20}

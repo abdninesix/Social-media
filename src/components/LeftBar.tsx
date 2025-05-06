@@ -71,7 +71,7 @@ const LeftBar = () => {
       <div className="flex flex-col gap-4 text-lg items-center xxl:items-start">
         {/* LOGO */}
         <Link href="/" className="p-2 rounded-full hover:bg-[#181818] ">
-          <Image path="icons/logo.svg" alt="logo" w={24} h={24} />
+          <Image path="sm/icons/logo.svg" alt="logo" w={24} h={24} />
         </Link>
         {/* MENU LIST */}
         <div className="flex flex-col gap-4">
@@ -82,7 +82,7 @@ const LeftBar = () => {
               key={item.id}
             >
               <Image
-                path={`icons/${item.icon}`}
+                path={`sm/icons/${item.icon}`}
                 alt={item.name}
                 w={24}
                 h={24}
@@ -96,7 +96,7 @@ const LeftBar = () => {
           href="/compose/post"
           className="bg-white text-black rounded-full w-12 h-12 flex items-center justify-center xxl:hidden"
         >
-          <Image path="icons/post.svg" alt="new post" w={24} h={24} />
+          <Image path="sm/icons/post.svg" alt="new post" w={24} h={24} />
         </Link>
         <Link
           href="/compose/post"
@@ -109,7 +109,7 @@ const LeftBar = () => {
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-2">
           <div className="w-10 h-10 relative rounded-full overflow-hidden">
-            <Image path="/general/avatar.png" alt="lama dev" w={100} h={100} tr={true} />
+            <Image path="sm/general/avatar.png" alt="lama dev" w={100} h={100} tr={true} />
           </div>
           <div className="hidden xxl:flex flex-col">
             <span className="font-bold">Lama Dev</span>

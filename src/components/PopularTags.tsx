@@ -11,7 +11,7 @@ const PopularTags = () => {
       <div className="flex gap-4">
         <div className="relative w-20 h-20 rounded-xl overflow-hidden">
           <Image
-            path="general/event.png"
+            path="sm/general/post.jpeg"
             alt="event"
             w={120}
             h={120}
@@ -29,7 +29,7 @@ const PopularTags = () => {
       <div className="">
         <div className="flex items-center justify-between">
           <span className="text-textGray text-sm">Technology • Trending</span>
-          <Image path="icons/infoMore.svg" alt="info" w={16} h={16} />
+          <Image path="sm/icons/infoMore.svg" alt="info" w={16} h={16} />
         </div>
         <h2 className="text-textGrayLight font-bold">OpenAI</h2>
         <span className="text-textGray text-sm">20K posts</span>
@@ -38,7 +38,7 @@ const PopularTags = () => {
       <div className="">
         <div className="flex items-center justify-between">
           <span className="text-textGray text-sm">Technology • Trending</span>
-          <Image path="icons/infoMore.svg" alt="info" w={16} h={16} />
+          <Image path="sm/icons/infoMore.svg" alt="info" w={16} h={16} />
         </div>
         <h2 className="text-textGrayLight font-bold">OpenAI</h2>
         <span className="text-textGray text-sm">20K posts</span>
@@ -47,7 +47,7 @@ const PopularTags = () => {
       <div className="">
         <div className="flex items-center justify-between">
           <span className="text-textGray text-sm">Technology • Trending</span>
-          <Image path="icons/infoMore.svg" alt="info" w={16} h={16} />
+          <Image path="sm/icons/infoMore.svg" alt="info" w={16} h={16} />
         </div>
         <h2 className="text-textGrayLight font-bold">OpenAI</h2>
         <span className="text-textGray text-sm">20K posts</span>
@@ -56,7 +56,7 @@ const PopularTags = () => {
       <div className="">
         <div className="flex items-center justify-between">
           <span className="text-textGray text-sm">Technology • Trending</span>
-          <Image path="icons/infoMore.svg" alt="info" w={16} h={16} />
+          <Image path="sm/icons/infoMore.svg" alt="info" w={16} h={16} />
         </div>
         <h2 className="text-textGrayLight font-bold">OpenAI</h2>
         <span className="text-textGray text-sm">20K posts</span>

@@ -58,7 +58,7 @@ const Post = async ({ type }: { type?: "status" | "comment" }) => {
             type === "status" && "hidden"
           } relative w-10 h-10 rounded-full overflow-hidden`}
         >
-          <Image path="general/avatar.png" alt="" w={100} h={100} tr={true} />
+          <Image path="sm/general/avatar.png" alt="" w={100} h={100} tr={true} />
         </div>
         {/* CONTENT */}
         <div className="flex-1 flex flex-col gap-2">
@@ -71,7 +71,7 @@ const Post = async ({ type }: { type?: "status" | "comment" }) => {
                 } relative w-10 h-10 rounded-full overflow-hidden`}
               >
                 <Image
-                  path="general/avatar.png"
+                  path="sm/general/avatar.png"
                   alt=""
                   w={100}
                   h={100}
@@ -105,7 +105,7 @@ const Post = async ({ type }: { type?: "status" | "comment" }) => {
               iure nam voluptas soluta pariatur inventore.
             </p>
           </Link>
-          <Image path="general/post.jpeg" alt="" w={600} h={600} />
+          <Image path="sm/general/post.jpeg" alt="" w={600} h={600} />
           {/* AFTER FETCHING THE POST MEDIA */}
           {/* {fileDetails && fileDetails.fileType === "image" ? (
             <Image
