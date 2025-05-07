@@ -25,7 +25,7 @@ const PostModal = () => {
           <div className="relative w-10 h-10 rounded-full overflow-hidden">
             <Image
               path="sm/general/avatar.png"
-              alt="Lama Dev"
+              alt="Abdullah"
               w={100}
               h={100}
               tr={true}
@@ -34,7 +34,7 @@ const PostModal = () => {
           <input
             className="flex-1 bg-transparent outline-none text-lg"
             type="text"
-            placeholder="What is happening?!"
+            placeholder="What's going on?"
           />
         </div>
         {/* BOTTOM */}
