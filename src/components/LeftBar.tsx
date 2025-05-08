@@ -48,7 +48,7 @@ const menuList = [
     id: 8,
     name: "Premium",
     link: "/",
-    icon: "premium.svg",
+    icon: "pro.svg",
   },
   {
     id: 9,
@@ -71,15 +71,15 @@ const LeftBar = () => {
       <div className="flex flex-col gap-4 text-lg items-center xxl:items-start">
         {/* LOGO */}
         <Link href="/" className="p-2 flex gap-2">
-          <Image path="sm/icons/logo.svg" alt="logo" w={24} h={24} />
-          <span className="text-xs font-extralight text-blue-400">by Abdullah</span>
+          <Image path="sm/icons/siteLogo.svg" alt="logo" w={24} h={24} />
+          <span className="text-xs font-extralight text-blue-400">developed by Abdullah</span>
         </Link>
         {/* MENU LIST */}
         <div className="flex flex-col gap-4">
           {menuList.map((item) => (
             <Link
               href={item.link}
-              className="p-2 rounded-full hover:bg-[#181818] flex items-center gap-4"
+              className="p-2 rounded-full hover:bg-inputGray flex items-center gap-4"
               key={item.id}
             >
               <Image

@@ -24,6 +24,7 @@ export const shareAction = async (
     {
       file: buffer,
       fileName: file.name,
+      overwriteFile: true,
       folder: "sm/posts",
       ...(file.type.includes("image") && {
         transformation: {
