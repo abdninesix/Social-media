@@ -24,8 +24,8 @@ const PostModal = () => {
         <div className="py-8 flex gap-4">
           <div className="relative w-10 h-10 rounded-full overflow-hidden">
             <Image
-              path="sm/general/avatar.png"
-              alt="Abdullah"
+              path="general/avatar.png"
+              alt="Lama Dev"
               w={100}
               h={100}
               tr={true}
@@ -34,49 +34,49 @@ const PostModal = () => {
           <input
             className="flex-1 bg-transparent outline-none text-lg"
             type="text"
-            placeholder="What is going on?"
+            placeholder="What is happening?!"
           />
         </div>
         {/* BOTTOM */}
         <div className=" flex items-center justify-between gap-4 flex-wrap border-t border-borderGray pt-4">
           <div className="flex gap-4 flex-wrap">
             <Image
-              path="sm/icons/image.svg"
+              path="icons/image.svg"
               alt=""
               w={20}
               h={20}
               className="cursor-pointer"
             />
             <Image
-              path="sm/icons/gif.svg"
+              path="icons/gif.svg"
               alt=""
               w={20}
               h={20}
               className="cursor-pointer"
             />
             <Image
-              path="sm/icons/poll.svg"
+              path="icons/poll.svg"
               alt=""
               w={20}
               h={20}
               className="cursor-pointer"
             />
             <Image
-              path="sm/icons/emoji.svg"
+              path="icons/emoji.svg"
               alt=""
               w={20}
               h={20}
               className="cursor-pointer"
             />
             <Image
-              path="sm/icons/schedule.svg"
+              path="icons/schedule.svg"
               alt=""
               w={20}
               h={20}
               className="cursor-pointer"
             />
             <Image
-              path="sm/icons/location.svg"
+              path="icons/location.svg"
               alt=""
               w={20}
               h={20}
