@@ -46,7 +46,7 @@ const UserPage = () => {
             <h1 className="text-2xl font-bold">Abdullah</h1>
             <span className="text-textGray text-sm">@abdninesix</span>
           </div>
-          <p>Hi! I'm your usual web developer.</p>
+          <p>Hi! Your usual web developer here.</p>
           {/* JOB & LOCATION & DATE */}
           <div className="flex gap-4 text-textGray text-[15px]">
             <div className="flex items-center gap-2">
