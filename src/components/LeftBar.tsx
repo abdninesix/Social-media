@@ -70,8 +70,9 @@ const LeftBar = () => {
       {/* LOGO MENU BUTTON */}
       <div className="flex flex-col gap-4 text-lg items-center xxl:items-start">
         {/* LOGO */}
-        <Link href="/" className="p-2 rounded-lg bg-white text-pink ">
-          <Image path="sm/icons/premium.svg" alt="logo" w={24} h={24} />
+        <Link href="/" className="p-2 flex gap-2">
+          <Image path="sm/icons/logo.svg" alt="logo" w={24} h={24} />
+          <span className="text-xs font-extralight text-blue-400">by Abdullah</span>
         </Link>
         {/* MENU LIST */}
         <div className="flex flex-col gap-4">
