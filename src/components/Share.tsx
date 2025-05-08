@@ -39,7 +39,7 @@ const Share = () => {
         <input
           type="text"
           name="desc"
-          placeholder="What's going on?"
+          placeholder="What is going on?"
           className="bg-transparent outline-none placeholder:text-textGray text-xl"
         />
         {/* PREVIEW IMAGE */}
