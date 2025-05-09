@@ -72,7 +72,7 @@ const LeftBar = () => {
         {/* LOGO */}
         <Link href="/" className="p-2 flex gap-2">
           <Image path="sm/icons/siteLogo.svg" alt="logo" w={24} h={24} />
-          <span className="text-xs font-extralight text-blue-400">developed by Abdullah</span>
+          <span className="hidden xxl:block text-xs font-extralight text-blue-400">developed by Abdullah</span>
         </Link>
         {/* MENU LIST */}
         <div className="flex flex-col gap-4">
