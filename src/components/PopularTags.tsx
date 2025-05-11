@@ -20,7 +20,7 @@ const PopularTags = () => {
         </div>
         <div className="flex-1">
           <h2 className="font-bold text-textGrayLight">
-            Nadal v Federer Grand Slam
+            Something something
           </h2>
           <span className="text-sm text-textGray">Last Night</span>
         </div>

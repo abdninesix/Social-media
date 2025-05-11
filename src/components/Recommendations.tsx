@@ -9,7 +9,7 @@ const Recommendations = () => {
         {/* IMAGE AND USER INFO */}
         <div className='flex items-center gap-2'>
           <div className='relative rounded-full overflow-hidden w-10 h-10'>
-            <Image path="sm/general/avatar.png" alt="Ahsan Raza" w={100} h={100} tr={true}/>
+            <Image path="sm/general/avatarNew.png" alt="Ahsan Raza" w={100} h={100} tr={true}/>
           </div>
           <div className=''>
             <h1 className="text-md font-bold">Ahsan Raza</h1>
@@ -23,7 +23,7 @@ const Recommendations = () => {
         {/* IMAGE AND USER INFO */}
         <div className='flex items-center gap-2'>
           <div className='relative rounded-full overflow-hidden w-10 h-10'>
-            <Image path="sm/general/avatar.png" alt="Zoya Khan" w={100} h={100} tr={true}/>
+            <Image path="sm/general/avatarNew.png" alt="Zoya Khan" w={100} h={100} tr={true}/>
           </div>
           <div className=''>
             <h1 className="text-md font-bold">Zoya Khan</h1>
@@ -37,7 +37,7 @@ const Recommendations = () => {
         {/* IMAGE AND USER INFO */}
         <div className='flex items-center gap-2'>
           <div className='relative rounded-full overflow-hidden w-10 h-10'>
-            <Image path="sm/general/avatar.png" alt="Hamza Qureshi" w={100} h={100} tr={true}/>
+            <Image path="sm/general/avatarNew.png" alt="Hamza Qureshi" w={100} h={100} tr={true}/>
           </div>
           <div className=''>
             <h1 className="text-md font-bold">Hamza Qureshi</h1>

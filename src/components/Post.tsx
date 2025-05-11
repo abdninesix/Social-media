@@ -63,7 +63,7 @@ const Post = async ({ type }: { type?: "status" | "comment" }) => {
                   } relative w-10 h-10 rounded-full overflow-hidden`}
               >
                 <Image
-                  path="sm/general/avatar.png"
+                  path="sm/general/avatarNew.png"
                   alt=""
                   w={100}
                   h={100}
@@ -79,7 +79,7 @@ const Post = async ({ type }: { type?: "status" | "comment" }) => {
                   className={`${type === "status" && "hidden"
                     } relative w-10 h-10 rounded-full overflow-hidden`}
                 >
-                  <Image path="sm/general/avatar.png" alt="" w={100} h={100} tr={true} />
+                  <Image path="sm/general/avatarNew.png" alt="" w={100} h={100} tr={true} />
                 </div>
                 <h1 className="text-md font-bold">Abdullah</h1>
                 <span
