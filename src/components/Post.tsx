@@ -52,13 +52,7 @@ const Post = async ({ type }: { type?: "status" | "comment" }) => {
       </div>
       {/* POST CONTENT */}
       <div className={`flex gap-4 ${type === "status" && "flex-col"}`}>
-        {/* AVATAR */}
-        <div
-          className={`${type === "status" && "hidden"
-            } relative w-10 h-10 rounded-full overflow-hidden`}
-        >
-          <Image path="sm/general/avatar.png" alt="" w={100} h={100} tr={true} />
-        </div>
+
         {/* CONTENT */}
         <div className="flex-1 flex flex-col gap-2">
           {/* TOP */}
@@ -80,6 +74,13 @@ const Post = async ({ type }: { type?: "status" | "comment" }) => {
                 className={`flex items-center gap-2 flex-wrap ${type === "status" && "!items-start"
                   }`}
               >
+                {/* AVATAR */}
+                <div
+                  className={`${type === "status" && "hidden"
+                    } relative w-10 h-10 rounded-full overflow-hidden`}
+                >
+                  <Image path="sm/general/avatar.png" alt="" w={100} h={100} tr={true} />
+                </div>
                 <h1 className="text-md font-bold">Abdullah</h1>
                 <span
                   className={`text-textGray ${type === "status" && "text-sm"}`}
