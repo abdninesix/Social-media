@@ -1,66 +1,67 @@
 import Link from "next/link";
 import Image from "./Image";
+import { Bookmark, Community, Explore, Home, Jobs, Message, More, Notification, Premium, Profile } from "./svg";
 
 const menuList = [
   {
     id: 1,
     name: "Homepage",
     link: "/",
-    icon: "home.svg",
+    icon: <Home />,
   },
   {
     id: 2,
     name: "Explore",
     link: "/",
-    icon: "explore.svg",
+    icon: <Explore />,
   },
   {
     id: 3,
     name: "Notification",
     link: "/",
-    icon: "notification.svg",
+    icon: <Notification />,
   },
   {
     id: 4,
     name: "Messages",
     link: "/",
-    icon: "message.svg",
+    icon: <Message />,
   },
   {
     id: 5,
     name: "Bookmarks",
     link: "/",
-    icon: "bookmark.svg",
+    icon: <Bookmark />,
   },
   {
     id: 6,
     name: "Jobs",
     link: "/",
-    icon: "job.svg",
+    icon: <Jobs />,
   },
   {
     id: 7,
     name: "Communities",
     link: "/",
-    icon: "community.svg",
+    icon: <Community />,
   },
   {
     id: 8,
     name: "Premium",
     link: "/",
-    icon: "pro.svg",
+    icon: <Premium />,
   },
   {
     id: 9,
     name: "Profile",
     link: "/",
-    icon: "profile.svg",
+    icon: <Profile />,
   },
   {
     id: 10,
     name: "More",
     link: "/",
-    icon: "more.svg",
+    icon: <More />,
   },
 ];
 
@@ -70,7 +71,7 @@ const LeftBar = () => {
       {/* LOGO MENU BUTTON */}
       <div className="flex flex-col gap-4 text-lg items-center xxl:items-start">
         {/* LOGO */}
-        <Link href="/" className="p-2 flex gap-2">
+        <Link href="/" className="p-2 flex gap-2 font-bold">
           <Image path="sm/icons/siteLogo.svg" alt="logo" w={24} h={24} />
           <span className="hidden xxl:block text-xs font-extralight text-blue-400">developed by Abdullah</span>
         </Link>
@@ -79,15 +80,16 @@ const LeftBar = () => {
           {menuList.map((item) => (
             <Link
               href={item.link}
-              className="p-2 rounded-full hover:bg-inputGray flex items-center gap-4"
+              className="p-2 rounded-full hover:bg-inputGray text-white flex items-center gap-4"
               key={item.id}
             >
-              <Image
+              <div className="size-8">{item.icon}</div>
+              {/* <Image
                 path={`sm/icons/${item.icon}`}
                 alt={item.name}
                 w={24}
                 h={24}
-              />
+              /> */}
               <span className="hidden xxl:inline">{item.name}</span>
             </Link>
           ))}

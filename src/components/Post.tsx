@@ -15,7 +15,7 @@ interface FileDetailsResponse {
 }
 
 const Post = async ({ type }: { type?: "status" | "comment" }) => {
- 
+
   // FETCH POST MEDIA
 
   // const getFileDetails = async (
@@ -54,9 +54,8 @@ const Post = async ({ type }: { type?: "status" | "comment" }) => {
       <div className={`flex gap-4 ${type === "status" && "flex-col"}`}>
         {/* AVATAR */}
         <div
-          className={`${
-            type === "status" && "hidden"
-          } relative w-10 h-10 rounded-full overflow-hidden`}
+          className={`${type === "status" && "hidden"
+            } relative w-10 h-10 rounded-full overflow-hidden`}
         >
           <Image path="sm/general/avatar.png" alt="" w={100} h={100} tr={true} />
         </div>
@@ -66,9 +65,8 @@ const Post = async ({ type }: { type?: "status" | "comment" }) => {
           <div className="w-full flex justify-between">
             <Link href={`/abdninesix`} className="flex gap-4">
               <div
-                className={`${
-                  type !== "status" && "hidden"
-                } relative w-10 h-10 rounded-full overflow-hidden`}
+                className={`${type !== "status" && "hidden"
+                  } relative w-10 h-10 rounded-full overflow-hidden`}
               >
                 <Image
                   path="sm/general/avatar.png"
@@ -79,9 +77,8 @@ const Post = async ({ type }: { type?: "status" | "comment" }) => {
                 />
               </div>
               <div
-                className={`flex items-center gap-2 flex-wrap ${
-                  type === "status" && "flex-col gap-0 !items-start"
-                }`}
+                className={`flex items-center gap-2 flex-wrap ${type === "status" && "!items-start"
+                  }`}
               >
                 <h1 className="text-md font-bold">Abdullah</h1>
                 <span
