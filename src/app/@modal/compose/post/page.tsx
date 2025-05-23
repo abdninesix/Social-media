@@ -25,7 +25,7 @@ const PostModal = () => {
           <div className="relative w-10 h-10 rounded-full overflow-hidden">
             <Image
               path="sm/general/avatarNew.png"
-              alt="Abdullah"
+              alt="Abs"
               w={100}
               h={100}
               tr={true}
