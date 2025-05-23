@@ -34,7 +34,7 @@ const PostModal = () => {
           <input
             className="flex-1 bg-transparent outline-none text-lg"
             type="text"
-            placeholder="What is going on?"
+            placeholder="Write what is going on..."
           />
         </div>
         {/* BOTTOM */}
