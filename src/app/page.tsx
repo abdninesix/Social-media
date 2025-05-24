@@ -11,6 +11,7 @@ const Homepage = () => {
         <Link className="hidden pb-3 md:flex items-center" href="/">Next.js</Link>
         <Link className="hidden pb-3 md:flex items-center" href="/">Python</Link>
         <Link className="hidden pb-3 md:flex items-center" href="/">Tailwind v4</Link>
+        <Link className="hidden pb-3 md:flex items-center" href="/">Typescript</Link>
       </div>
       <Share />
       <Feed />
