@@ -11,7 +11,7 @@ const Homepage = () => {
         <Link className="hidden pb-3 md:flex items-center" href="/">Recent</Link>
         <Link className="hidden pb-3 md:flex items-center" href="/">Trending</Link>
         <Link className="hidden pb-3 md:flex items-center" href="/">Popular</Link>
-        <Link className="hidden pb-3 md:flex items-center" href="/">Typescript</Link>
+        <Link className="hidden pb-3 md:flex items-center" href="/">Oldest</Link>
       </div>
       <Share />
       <Feed />
