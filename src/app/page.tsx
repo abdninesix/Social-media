@@ -9,7 +9,7 @@ const Homepage = () => {
         <Link className="pb-3 flex items-center border-b-4 border-iconBlue" href="/">For you</Link>
         <Link className="pb-3 flex items-center" href="/">Following</Link>
         <Link className="hidden pb-3 md:flex items-center" href="/">Recent</Link>
-        <Link className="hidden pb-3 md:flex items-center" href="/">Python</Link>
+        <Link className="hidden pb-3 md:flex items-center" href="/">Trending</Link>
         <Link className="hidden pb-3 md:flex items-center" href="/">Tailwind v4</Link>
         <Link className="hidden pb-3 md:flex items-center" href="/">Typescript</Link>
       </div>
