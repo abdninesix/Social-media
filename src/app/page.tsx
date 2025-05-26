@@ -11,7 +11,7 @@ const Homepage = () => {
         <Link className="hidden pb-3 md:flex items-center" href="/">Next.js</Link>
         <Link className="hidden pb-3 md:flex items-center" href="/">React.js</Link>
         <Link className="hidden pb-3 md:flex items-center" href="/">Tailwind</Link>
-        <Link className="hidden pb-3 md:flex items-center" href="/">Oldest</Link>
+        <Link className="hidden pb-3 md:flex items-center" href="/">MongoDB</Link>
       </div>
       <Share />
       <Feed />
